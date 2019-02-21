@@ -121,7 +121,7 @@ ol{
 .iframe[seamless] { 
         display: block;
     }
-    .curl {
+.curl {
         width:120px;
         height:120px;
         position: absolute;
@@ -142,8 +142,8 @@ ol{
         box-shadow : 0 0 10px rgba(0, 0, 0, .5);
         transition: all .5s ease;
       }
-      .curl:before,
-      .curl:after {
+.curl:before,
+.curl:after {
         content: '';
         position: absolute;
         z-index: -1;
@@ -156,7 +156,7 @@ ol{
         box-shadow: 0 12px 15px rgba(0, 0, 0, .3);
         transform: skew(-10deg) rotate(-6deg);
       }
-      .curl:after {
+.curl:after {
         left: auto;
         right: 5.8%;
         bottom: auto;
@@ -164,15 +164,15 @@ ol{
         transform: skew(-15deg) rotate(-84deg);
       }
       
-      .curl:hover {
+.curl:hover {
         width: 240px;
         height: 240px;
       }
-      .curl:hover:before,
-      .curl:hover:after {
+.curl:hover:before,
+.curl:hover:after {
         box-shadow: 0 24px 30px rgba(0, 0, 0, .3);
       }
-      .clock {
+.clock {
         position: absolute;
         top: 20%;
         left: 85%;
@@ -182,4 +182,5 @@ ol{
         font-size: 60px;
         font-family: Georgia, 'Times New Roman', Times, serif ;
         letter-spacing: 7px;
-      }
+        text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; 
+        }

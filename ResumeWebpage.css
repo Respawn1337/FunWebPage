@@ -1,5 +1,10 @@
 body {
-	background-color: blue;
+  background-color: blue;
+  background-image: url('ZeldaCuckoo2.gif');
+  background-repeat: repeat-x;
+  background-attachment: fixed;
+  background-position: bottom right; 
+
 
 }
 h1 {
